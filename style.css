@@ -8,58 +8,57 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #3498db;
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    width: 850px;
+    width: 700px;
     max-width: 95%;
 }
 
 .signup-box {
     background-color: white;
-    padding: 65px 65px 80px;
+    padding: 35px 45px 40px;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 500;
     color: #111;
-    margin-bottom: 25px;
+    margin-bottom: 12px;
 }
 
 .subtitle {
-    font-size: 23px;
+    font-size: 17px;
     color: #999;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
 }
 
 hr {
     border: none;
     border-top: 1px solid #eee;
-    margin: 0 -65px 45px;
+    margin: 0 -45px 25px;
 }
 
 .name-fields {
     display: flex;
-    gap: 45px;
+    gap: 25px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
     width: 100%;
-    height: 65px;
+    height: 48px;
     border: none;
     background-color: #f3f3f3;
-    padding: 0 22px;
-    margin-bottom: 35px;
-    font-size: 21px;
+    padding: 0 16px;
+    margin-bottom: 18px;
+    font-size: 16px;
     color: #555;
 }
 
@@ -74,32 +73,31 @@ input::placeholder {
 .terms {
     display: flex;
     align-items: center;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    font-size: 20px;
+    margin-top: 2px;
+    margin-bottom: 22px;
+    font-size: 15px;
     color: #777;
 }
 
 .terms input {
-    width: 20px;
-    height: 20px;
-    margin-right: 15px;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
 }
 
-.terms a,
-.login-text a {
+.terms a {
     color: #6b9fc9;
     text-decoration: none;
 }
 
 button {
-    width: 300px;
-    height: 65px;
+    width: 220px;
+    height: 48px;
     background-color: #3498db;
     color: white;
     border: none;
     border-radius: 3px;
-    font-size: 22px;
+    font-size: 17px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -111,14 +109,14 @@ button:hover {
 .login-text {
     text-align: center;
     color: white;
-    font-size: 21px;
-    margin-top: 35px;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
 .login-text a {
     color: white;
     text-decoration: underline;
-}
+    }
 
 /* Mobile screen adjustment */
 
@@ -163,4 +161,5 @@ button:hover {
     .login-text {
         font-size: 16px;
     }
+ 
 }
